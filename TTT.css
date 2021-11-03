@@ -1,57 +1,4 @@
-<<<<<<< HEAD
-* {
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-}
 
-body {
-    width: 100%;
-}
-
-.board {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-header {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.score {
-    margin: 10px auto;
-    display: grid;
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    grid-column-gap: 30px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-
-.TTTBoard {
-    width: 500px;
-    height: 500px;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.TTTBoard div {
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-=======
 * {
     padding: 0;
     margin:0;
@@ -136,5 +83,4 @@ h3 {
 
 .X, .score *:nth-child(2n), .Red {
     color:rgb(230, 0, 0);
->>>>>>> 22eba1a9da6d16f0a29cf8bb1405563b086a1d17
 }
