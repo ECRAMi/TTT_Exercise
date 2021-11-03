@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    margin: 1vh auto;
+    display: grid;
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10%;
+    grid-row-gap: 1vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+p {
+    font-size: 4vh;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+h2 {
+    font-size: 5vh;
+}
+
+h3 {
+    font-size: 4vh;
+}
+
+.TTTBoard {
+    width: 50vh;
+    height: 50vh;
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.TTTBoard div {
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+}
+
+#status {
+    margin: 1.5vh auto;
+}
+
+.O, .score *:nth-child(2n - 1), .Blue {
+    color:rgb(0, 173, 230);
+}
+
+.X, .score *:nth-child(2n), .Red {
+    color:rgb(230, 0, 0);
+}
